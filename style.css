@@ -1,0 +1,32 @@
+    body {
+        background: linear-gradient(to bottom right, red, white, black);
+        /*background-color: rgb(255, 182, 47);*/
+        display: flex;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    table {
+        border-color: collapse;
+    }
+    
+    #frow {
+        background-color: aqua;
+    }
+    
+    tr:nth-child(2n) {
+        background-color: rgb(148, 6, 6);
+    }
+    
+    tr:nth-child(2n + 1) {
+        background-color: #081192
+    }
+    
+    tr:hover {
+        background-color: aliceblue;
+    }
+    
+    th td {
+        padding: 3px 20px;
+    }
